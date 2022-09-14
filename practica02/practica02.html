@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 02 CSS</title>
+    <!-- 
+        el orden en el que el css prevalece depende de su renderizado
+     -->
+    <!-- estilo global a la pagina -->
+    <style>
+        span{
+            color: blue;
+        }
+        #sp1{
+            color: green;
+        }
+    </style>
+    <!-- estilo global al sitio -->
+    <link rel="stylesheet" href="practica02.css">
+</head>
+<body>
+    
+    <h1> texto nivel 1</h1>
+    <p><span id="sp1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti blanditiis iusto similique architecto nulla dicta voluptatum, officia accusamus odio pariatur, voluptates natus? Tempore velit quis qui atque, neque explicabo corrupti.</span>
+        <span>Nemo assumenda sunt, voluptatum neque necessitatibus quaerat deleniti aperiam eos, molestiae obcaecati possimus nobis voluptate. Repudiandae, porro itaque voluptatem neque obcaecati veritatis illum delectus quaerat excepturi, a perferendis ipsa! Fugit!</span>
+        <span>Iure maiores aut sint inventore? Eum sapiente, numquam modi expedita architecto et necessitatibus deserunt placeat laborum non commodi assumenda vel, fuga voluptate velit fugiat labore? Nobis in aspernatur aliquid velit?</span>
+        <span>Dignissimos aperiam facere fuga minus, possimus nobis explicabo, doloremque autem aliquam cupiditate tenetur expedita veniam, voluptatem quis placeat modi. A possimus nesciunt sapiente animi blanditiis, consectetur debitis itaque autem sequi.</span>
+        <span>Esse, pariatur. Vel odit ullam nam placeat exercitationem. Debitis iure alias voluptatibus nostrum? Facilis distinctio laboriosam ab dicta placeat deserunt? Dicta sint sed, molestias aliquid explicabo doloribus provident reprehenderit quidem.</span></p>
+    
+    <p><span id="sp2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti blanditiis iusto similique architecto nulla dicta voluptatum, officia accusamus odio pariatur, voluptates natus? Tempore velit quis qui atque, neque explicabo corrupti.</span>
+        <span class="fuente">Nemo assumenda sunt, voluptatum neque necessitatibus quaerat deleniti aperiam eos, molestiae obcaecati possimus nobis voluptate. Repudiandae, porro itaque voluptatem neque obcaecati veritatis illum delectus quaerat excepturi, a perferendis ipsa! Fugit!</span>
+        <span>Iure maiores aut sint inventore? Eum sapiente, numquam modi expedita architecto et necessitatibus deserunt placeat laborum non commodi assumenda vel, fuga voluptate velit fugiat labore? Nobis in aspernatur aliquid velit?</span>
+        <span class="fuente">Dignissimos aperiam facere fuga minus, possimus nobis explicabo, doloremque autem aliquam cupiditate tenetur expedita veniam, voluptatem quis placeat modi. A possimus nesciunt sapiente animi blanditiis, consectetur debitis itaque autem sequi.</span>
+        <span>Esse, pariatur. Vel odit ullam nam placeat exercitationem. Debitis iure alias voluptatibus nostrum? Facilis distinctio laboriosam ab dicta placeat deserunt? Dicta sint sed, molestias aliquid explicabo doloribus provident reprehenderit quidem.</span></p>
+
+        <span class="fuente">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, iure et commodi possimus velit inventore voluptas. Sint, ipsa saepe! Quam, voluptatem sunt impedit nulla explicabo atque doloribus alias consequatur molestias.  </span>
+</body>
+</html>

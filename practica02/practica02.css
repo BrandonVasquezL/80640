@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#sp2{
+    color: red;
+}
+
+#sp1{
+    /*margin: 100px;
+    padding: 100px;*/
+    color: black;
+}
+
+p span{
+    color:darkmagenta;
+}
+
+.fuente{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span::after{
+    content: "Brandon"'\A''\A'; white-space: pre;
+}
+h1{
+    background-color: brown;
+    text-align: center;
+}
+h1:hover{
+    transform: scale(1.2);
+    color: pink;
+}
+span:hover::after{
+    color: yellow;
+    font-size: 25px;
+}
+p::first-letter{
+    color: red;
+    font-size: xx-large;
+}

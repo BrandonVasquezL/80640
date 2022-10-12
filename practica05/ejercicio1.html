@@ -17,14 +17,17 @@
             e.style.color = color
         }
         function cambiarColores(color) {
+            let i =0
              let c = document.getElementsByTagName("p")
-            // for (let index = 0; index < c.length; index++) {
-            //     c[index].style.color = color                
-            // }
-            var arr = [].slice.call(c);
-            arr.forEach(element => {
-              console.log(element)  
-            });
+            for (let x in c) {
+                if(Object.hasOwnProperty.call(c, x)){
+                    let element = c[x].style.color = "blue";
+            }
+            }
+            // var arr = [].slice.call(c);
+            // arr.forEach(element => {
+            //   console.log(element)  
+            // });
         }
     </script>
 </head>

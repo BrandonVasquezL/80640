@@ -27,7 +27,7 @@ public class App {
         //before((req,res)-> res.type("aplication/json"));
         get ("/usuario", (req,res)-> gson.toJson(u1));
         get ("/usuarios", (req,res)-> gson.toJson(usuarios));
-
+        
         post("/", (req,res)->{
             String datosFormulario = req.body();
             Usuario u = gson.fromJson(datosFormulario, Usuario.class);

@@ -3,11 +3,11 @@ package mx.uv.c80640;
 public class Usuario {
     String id;
     String nombre;
-    String paswword;
-    public Usuario(String id, String nombre, String paswword) {
+    String password;
+    public Usuario(String id, String nombre, String password) {
         this.id = id;
         this.nombre = nombre;
-        this.paswword = paswword;
+        this.password = password;
     }
     public String getId() {
         return id;
@@ -21,10 +21,11 @@ public class Usuario {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    public String getPaswword() {
-        return paswword;
+    public String getPassword() {
+        return password;
     }
-    public void setPaswword(String paswword) {
-        this.paswword = paswword;
+    public void setPassword(String password) {
+        this.password = password;
     }
+
 }
